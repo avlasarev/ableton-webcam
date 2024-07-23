@@ -1,0 +1,15 @@
+ABLETON WEBCAM FACE DETETION
+
+Libraries needed:
+cv2, rtmidi
+
+This application runs from for_testing.py in hand_detection folder,
+while an open Ableton window is loaded with 4 MIDI chanels on track 1 to 4.
+
+User has to correct the location of the XML haarcascade file for the face detection function.
+User has to create a virtual midi port and correct the port name according to the code:from_python_port
+User has to select the MIDI Port "from_python_port" from Ableton's preferences to accept Remote signals
+
+User has to copy the file MyRemoteScript.py to Ableton's remote scripts folder:
+for example:
+--\AppData\Roaming\Ableton\Live 11.1.6\Preferences\User Remote Scripts
